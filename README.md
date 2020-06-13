@@ -24,6 +24,16 @@ Node.jsを用いたHello Worldプログラム。
 
 ### Visual Studio Codeを利用する場合
 
+#### プロジェクトの初期化
+
+Node.jsを用いたNPMプロジェクトであるため、プロジェクトの初期化を行ってください。  
+なお、本プロジェクトは今のところ外部の依存関係を持たないため、実行しても特段変化は起きません。
+
+Visual Studio Codeのメニューから `Terminal` -> `New Terminal` と進み、統合ターミナルを開いてください。  
+統合ターミナルが開かれたら、`npm install` と入力し、実行します。
+
+#### プログラム本体の実行
+
 `.vscode/launch.json` に設定が記述されているため、エディタから直接実行できます。  
 左側のアクティビティバー内にある `Run` を展開し、Configurationとして `Launch Program` を選択し、実行ボタンを押下してください。
 
