@@ -7,6 +7,25 @@ Node.jsを用いたHello Worldプログラム。
 - Node.js v12.14.0 以降
 - Visual Studio Code 1.45.1 以降
 
+## プロジェクトのclone
+
+### Visual Studio Codeを利用する場合
+
+Visual Studio Codeのメニューから `Terminal` -> `New Terminal` と進み、統合ターミナルを開いてください。
+
+[![Image from Gyazo](https://t.gyazo.com/teams/kiganix/515d289467723bff9e9cecd161ddde74.png)](https://kiganix.gyazo.com/515d289467723bff9e9cecd161ddde74)
+
+ターミナルを開いたら、下記のようにコマンドを実行し、プロジェクトをcloneします。
+
+```shell
+git clone https://github.com/seisahachioji/nodejs-hello-world.git
+```
+
+cloneが完了したら、メニューから `File` -> `Open` と進み、cloneしたディレクトリを選択し `OK` を押下してください。
+
+> [![Image from Gyazo](https://t.gyazo.com/teams/kiganix/7da70bd72627375b304b4b0301121752.png)](https://kiganix.gyazo.com/7da70bd72627375b304b4b0301121752)
+
+> [![Image from Gyazo](https://t.gyazo.com/teams/kiganix/f7f6933b4331ee8d02afa1ef4c21b6d2.png)](https://kiganix.gyazo.com/f7f6933b4331ee8d02afa1ef4c21b6d2)
 ## プロジェクト構成
 
 - `.`
@@ -29,8 +48,11 @@ Node.jsを用いたHello Worldプログラム。
 Node.jsを用いたNPMプロジェクトであるため、プロジェクトの初期化を行ってください。  
 なお、本プロジェクトは今のところ外部の依存関係を持たないため、実行しても特段変化は起きません。
 
-Visual Studio Codeのメニューから `Terminal` -> `New Terminal` と進み、統合ターミナルを開いてください。  
-統合ターミナルが開かれたら、`npm install` と入力し、実行します。
+統合ターミナルを開き、下記のように実行します。
+
+```shell
+npm install
+```
 
 #### プログラム本体の実行
 
