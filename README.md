@@ -18,6 +18,10 @@ Visual Studio Codeのメニューから `Terminal` -> `New Terminal` と進み�
 ターミナルを開いたら、下記のようにコマンドを実行し、プロジェクトをcloneします。
 
 ```shell
+# まずはプロジェクトを置いて良い場所に移動。Windowsの場合を想定し、ドキュメントディレクトリに移動します。
+cd %USERPROFILE%\Documents
+
+# プロジェクトのclone
 git clone https://github.com/seisahachioji/nodejs-hello-world.git
 ```
 
