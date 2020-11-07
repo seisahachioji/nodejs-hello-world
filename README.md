@@ -17,13 +17,49 @@ Visual Studio Codeのメニューから `Terminal` -> `New Terminal` と進み�
 
 ターミナルを開いたら、下記のようにコマンドを実行し、プロジェクトをcloneします。
 
+<details>
+<summary>cmd（コマンドプロンプト）を利用する場合</summary>
+
+環境変数は `%` で囲んで利用し、ディレクトリの区切り文字は `\` を用います。
+
 ```shell
-# まずはプロジェクトを置いて良い場所に移動。Windowsの場合を想定し、ドキュメントディレクトリに移動します。
+# まずはプロジェクトを置いてよい場所に移動。Windowsの場合を想定し、ドキュメントディレクトリに移動します。
 cd %USERPROFILE%\Documents
 
 # プロジェクトのclone
-git clone https://github.com/seisahachioji/nodejs-hello-world.git
+git clone 'https://github.com/seisahachioji/nodejs-hello-world.git'
 ```
+</details>
+
+<details>
+<summary>PowerShellを利用する場合</summary>
+
+環境変数は `$` を先頭に記して利用し、ディレクトリの区切り文字は `\` を用います。
+
+```shell
+# まずはプロジェクトを置いてよい場所に移動。Windowsの場合を想定し、ドキュメントディレクトリに移動します。
+cd $USERPROFILE\Documents
+
+# プロジェクトのclone
+git clone 'https://github.com/seisahachioji/nodejs-hello-world.git'
+```
+
+</details>
+
+<details>
+<summary>Git Bash等を利用する場合</summary>
+
+環境変数は `$` を先頭に記して利用し、ディレクトリの区切り文字は `/` を用います。
+
+```shell
+# まずはプロジェクトを置いてよい場所に移動。Windowsの場合を想定し、ドキュメントディレクトリに移動します。
+cd $USERPROFILE\Documents
+
+# プロジェクトのclone
+git clone 'https://github.com/seisahachioji/nodejs-hello-world.git'
+```
+
+</details>
 
 cloneが完了したら、メニューから `File` -> `Open` と進み、cloneしたディレクトリを選択し `OK` を押下してください。
 
